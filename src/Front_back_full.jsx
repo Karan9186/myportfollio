@@ -13,7 +13,7 @@ function Front_back_full() {
           </p>
         </div>
 
-        <div className="d-flex pt-5 gap-5 ">
+        <div className="d-flex pt-5 gap-5 main_respo">
           <div className="front_back_full_cont" id="hover_con" data-aos="fade-up">
             <img data-aos="fade-left" src="src/assets/front_back.jpg" alt="" />
             <h3 data-aos="fade-left">Front End Development</h3>

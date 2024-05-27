@@ -4,7 +4,7 @@ export default function Reach_out() {
   return (
     <div className="container main-interest-class">
       <h2 data-aos="fade-left">Interest to work together?</h2>
-      <div className="container d-flex  pt-4">
+      <div className="container d-flex  pt-4 responsive_schedule">
         <div className="main-schedule">
           <h3 data-aos="fade-left">schedule a call</h3>
           <p data-aos="fade-left">

@@ -19,3 +19,11 @@
   background-color: white;
   color:black;
 }
+
+
+@media screen and (max-width:551px) {
+  .responsive_schedule{
+    flex-wrap: wrap;
+    gap:20px
+  }
+}

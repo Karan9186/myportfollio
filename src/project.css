@@ -59,3 +59,9 @@ html,body{
   padding: 5px 5px;
   border-radius: 3px;
 }
+
+@media screen and (max-width:782px) {
+  .main_project_contenet{
+    flex-wrap: wrap;
+  }
+}

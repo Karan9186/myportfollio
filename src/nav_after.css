@@ -70,3 +70,18 @@
   padding: 10px 10px;
   border-radius: 5px;
 }
+
+@media screen and (max-width:670px) {
+  .background_container{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .img_cont {
+    width: 100%;
+  }
+  .img_cont img{
+    height: 90%;
+    width: 100%;
+    margin-top:40px
+  }
+}

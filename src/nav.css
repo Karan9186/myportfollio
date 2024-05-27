@@ -46,7 +46,7 @@
   transition: background-color 0.7s, color 0.7s;
   font-weight: 600;
   text-transform: capitalize;
-  border:none;
+  border: none;
 }
 
 .github_btn:hover {
@@ -90,4 +90,23 @@
   border-radius: 20px;
   border: 1px solid rgb(241, 241, 241);
   box-shadow: 0px 1px 20px 0px #dcdcdc;
+}
+
+@media screen and (max-width:612px) {
+  .back_and_border {
+    padding: 2px 10px;
+  }
+
+}
+
+
+@media screen and (max-width:512px) {
+  .github_btn {
+    display: none;
+  }
+
+  .back_and_border {
+    padding: 0px 0px;
+  }
+
 }

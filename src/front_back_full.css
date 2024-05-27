@@ -43,3 +43,9 @@
 #hover_con:hover{
   box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
 }
+
+@media screen and (max-width:815px) {
+  .main_respo{
+    flex-wrap: wrap;
+  }
+}

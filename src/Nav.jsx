@@ -11,7 +11,7 @@ function Nav() {
     <div className="main_nav_container">
       <div className="back_and_border" data-aos="fade-down">
         <div className="my_profile_img" >
-          <img src="src/assets/myprofile.png" alt="" data-aos="fade-down"/>
+          <img src="../src/assets/myprofile.png" alt="" data-aos="fade-down"/>
         </div>
 
         <div className="nav_links" data-aos="fade-down">

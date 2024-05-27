@@ -1,0 +1,46 @@
+.main_about_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  background-color: rgb(228, 226, 226);
+
+  padding: 10px 0px 30px 0px;
+  border-radius: 5px;
+
+}
+
+.main_about_container input {
+  width: 70%;
+  font-size: 21px;
+  border: none;
+  padding: 4px 4px;
+  border-radius: 4px;
+}
+
+.main_about_container textarea {
+  width: 70%;
+  font-size: 21px;
+  border: none;
+  padding: 4px 4px;
+  border-radius: 4px;
+}
+
+.main_about_container button {
+  width: 70%;
+  font-size: 21px;
+  background-color: black;
+  color: white;
+  border: none;
+  text-transform: capitalize;
+  border-radius: 4px;
+  padding: 5px 10px;
+  transition: all ease-out 0.7s;
+}
+
+.main_about_container button:hover {
+  background-color: white;
+  color: black;
+}

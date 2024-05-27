@@ -1,0 +1,72 @@
+.img_cont {
+  height: 40vh;
+  width: 40vw;
+}
+
+.img_cont img {
+  height: 63vh;
+  width: 37vw;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  object-fit: cover;
+}
+
+.btn_black {
+  background-color: black;
+  border: none;
+  color: white;
+  width: 130px;
+  box-shadow: -2px 0px 20px 0px rgb(120, 120, 120);
+  border-radius: 4px;
+  font-weight: 500;
+  transition: 0.7s;
+}
+
+.btn_black:hover {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+}
+
+.btn_white {
+  background-color: white;
+  border: none;
+  color: black;
+  width: 130px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -2px 0px 20px 0px rgb(120, 120, 120);
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn_white:hover {
+  background-color: black;
+  color: white;
+}
+.icon_github{
+  margin-right: 10px;
+}
+.btn_white button {
+  background-color: white;
+  border: none;
+  color: black;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.social_icons li {
+  padding-left: 10px;
+  list-style: none;
+  font-size: 30px;
+}
+
+.background_container {
+  background-color: #00000014;
+  padding: 10px 10px;
+  border-radius: 5px;
+}

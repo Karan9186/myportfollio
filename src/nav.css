@@ -1,0 +1,93 @@
+.main_nav_container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my_profile_img img {
+  height: 50px;
+  width: 50px;
+}
+
+.nav_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+  padding-right: 25px;
+}
+
+.nav_links ul li {
+  display: inline;
+  padding-left: 16px;
+
+}
+
+.nav_links ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.github_btn {
+  padding-left: 20px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+  min-width: 8vw;
+  padding: 5px 10px;
+  border-radius: 4px;
+  box-shadow: -2px 0px 20px 0px rgb(120, 120, 120);
+  transition: background-color 0.7s, color 0.7s;
+  font-weight: 600;
+  text-transform: capitalize;
+  border:none;
+}
+
+.github_btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.git_icons {
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+.github_icon {
+  font-size: 180px;
+  padding-right: 10px;
+}
+
+.github_btn button {
+  cursor: pointer;
+  /* padding:4px 10px; */
+  color: white;
+  background-color: black;
+  text-transform: capitalize;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+}
+
+.github_icon {
+  width: 20px;
+  height: 20px;
+}
+
+.back_and_border {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 6px 40px;
+  border-radius: 20px;
+  border: 1px solid rgb(241, 241, 241);
+  box-shadow: 0px 1px 20px 0px #dcdcdc;
+}

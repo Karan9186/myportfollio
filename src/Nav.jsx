@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import "./nav.css";
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { FaGithubSquare } from "react-icons/fa";
 function Nav() {
-  useState(()=>{
-    AOS.init({duration:1000});
-  },[]);
+  useState(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <div className="main_nav_container">
       <div className="back_and_border" data-aos="fade-down">
-        <div className="my_profile_img" >
-          <img src="../src/assets/myprofile.png" alt="" data-aos="fade-down"/>
+        <div className="my_profile_img">
+          <img src="src/assets/myprofile.png" alt="" data-aos="fade-down" />
         </div>
 
         <div className="nav_links" data-aos="fade-down">

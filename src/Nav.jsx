@@ -44,8 +44,8 @@ function Nav() {
 
         <div className="gap-2" data-aos="fade-down">
           <button className="github_btn">
-            <FaGithubSquare className="git_icons" fontSize="1.5em" />
-            projects
+            <FaGithubSquare className="git_icons" fontSize="1.5em" />projects
+            
           </button>
         </div>
       </div>

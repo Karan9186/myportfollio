@@ -51,9 +51,8 @@
 
 .github_btn:hover {
   background-color: white;
-  color: black;
+  color: black !important;
 }
-
 .git_icons {
   margin-top: 2px;
   margin-right: 10px;

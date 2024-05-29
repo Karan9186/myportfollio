@@ -1,0 +1,15 @@
+.mini_img_and_content img{
+  height: 40px;
+  width: 40px;
+}
+
+.main_blog_con{
+  background-color: black;
+  border-radius: 7px;
+  max-width: 70vw;
+  color:white;
+  box-shadow: 1px 5px 10px black;
+}
+body{
+  background-color: rgb(233, 233, 233);
+}

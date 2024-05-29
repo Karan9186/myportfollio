@@ -1,0 +1,38 @@
+.background_color {
+  background-color: rgb(220 218 218 / 45%);
+  margin-top: 40px;
+  border-radius: 5px;
+  backdrop-filter: blur(120px);
+  font-family:Arial, Helvetica, sans-serif;
+  box-shadow: 2px 3px 10px #b3b3b3;
+}
+
+.background_color div h2 {
+  /* text-align: center; */
+  /* background-color: white; */
+  /* border-radius: 4px; */
+  padding: 7px 0px;
+}
+
+.main_back_con{
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  box-shadow:0px 0px 16px 0px grey
+}
+.main_back_con img{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project_view_btn{
+  background-color: white;
+  border:none;
+  padding:2px 45px;
+  display: flex;
+  float: right;
+  border-radius: 5px;
+  font-weight: 700;
+  box-shadow: 1px 1px 10px grey;
+}

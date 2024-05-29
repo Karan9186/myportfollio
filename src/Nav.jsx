@@ -3,6 +3,7 @@ import "./nav.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaGithubSquare } from "react-icons/fa";
+import { Link } from "react-router-dom";
 function Nav() {
   useState(() => {
     AOS.init({ duration: 1000 });
@@ -17,16 +18,26 @@ function Nav() {
         <div className="nav_links" data-aos="fade-down">
           <ul>
             <li>
-              <a href="#">docs</a>
+              <a href="#">
+                <Link to={"/Home"}>home</Link>
+              </a>
             </li>
             <li>
-              <a href="#">projects</a>
+              <a href="#">
+                <Link to={"/projects"}>projects</Link>
+              </a>
             </li>
             <li>
-              <a href="#">blogs</a>
+              <a href="#">
+                <Link to={"/blogs"}>blogs</Link>
+              </a>
             </li>
             <li>
-              <a href="#">about</a>
+              {/* <a href="#">about</a> */}
+              <a>
+                {" "}
+                <Link to={"/about"}>about</Link>
+              </a>
             </li>
           </ul>
         </div>

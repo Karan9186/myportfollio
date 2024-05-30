@@ -9,11 +9,11 @@ function About() {
 
       <div className="container mt-5">
         <div className="pt-4">
-          <h1>About Me</h1>
+          <h1 data-aos="fade-left">About Me</h1>
         </div>
 
-        <div className="container d-flex align-items-center gap-5 main_about_cont">
-          <h5 className="ps-4">
+        <div className="container d-flex align-items-center gap-5 main_about_cont" data-aos="fade-left">
+          <h5 className="ps-4" data-aos="fade-left">
             I am a dedicated MERN stack developer with expertise in MongoDB,
             Express.js, React, and Node.js. I create dynamic, responsive web
             applications with a focus on user-friendly interfaces, robust APIs,
@@ -25,7 +25,7 @@ function About() {
             my site!
           </h5>
 
-          <img src="src/assets/myprofile.png" alt="" />
+          <img src="src/assets/myprofile.png" alt="" data-aos="fade-left"/>
         </div>
       </div>
 <br /><br /><br />

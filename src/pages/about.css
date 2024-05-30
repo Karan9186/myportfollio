@@ -14,3 +14,10 @@
   border-radius: 50%;
   filter: contrast(1.5);
 }
+
+
+@media  (max-width:767px) {
+ .main_about_cont{
+  flex-direction:column-reverse;
+ }
+}

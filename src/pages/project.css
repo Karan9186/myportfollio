@@ -36,3 +36,16 @@
   font-weight: 700;
   box-shadow: 1px 1px 10px grey;
 }
+
+@media screen and (max-width:767px) {
+  .responsive_cont span{
+    display: none;
+  }
+  .remove_flex_pro{
+    flex-direction: column;
+  }
+
+  
+}
+
+
